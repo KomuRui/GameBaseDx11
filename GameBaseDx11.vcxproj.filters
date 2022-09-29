@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01Engine">
+      <UniqueIdentifier>{e5fccdcb-f299-4448-bdb6-01fa28039576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\Collider">
+      <UniqueIdentifier>{7f19ecfb-5d70-4d31-a1f7-c9dd14bad324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\DirectX">
+      <UniqueIdentifier>{e56f8c9a-95a5-4ceb-b65f-5b8e572d087b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\GameObject">
+      <UniqueIdentifier>{b450e438-c939-4b05-b319-0e3c0b4a335c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01Engine\ResourceManager">
+      <UniqueIdentifier>{bedee914-5063-4c08-95bb-79c861b4969c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02Shader">
+      <UniqueIdentifier>{47a6a3f5-8cfd-436b-8d58-beccd108f3f3}</UniqueIdentifier>
+      <Extensions>hlsl</Extensions>
+    </Filter>
+    <Filter Include="01Engine\imagui">
+      <UniqueIdentifier>{3abdd034-6933-4481-81a9-555fc0383837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EarthScene">
+      <UniqueIdentifier>{79faa3b0-e01d-44cf-87d1-569b7d8ffcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SunScene">
+      <UniqueIdentifier>{9f85e763-40b0-48c2-9791-9a7f62854ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MonthScene">
+      <UniqueIdentifier>{6e6dc3cd-5fda-4b55-9375-cf6aefcf21ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TitleScene">
+      <UniqueIdentifier>{25e5cecf-180a-4361-a8db-a2e9b5e47da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HomeScene">
+      <UniqueIdentifier>{faa36fb6-7147-46c0-b20e-085512b450b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomizeScene">
+      <UniqueIdentifier>{f26e1131-10b2-480b-9774-37831b2a3c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SplashScene">
+      <UniqueIdentifier>{3d5b7216-9939-44ef-8f2b-012ba4e3b9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CourseOrCustomizedScene">
+      <UniqueIdentifier>{317ee8f8-a96c-40b1-81b7-1f120fe0651f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CourseSelectScene">
+      <UniqueIdentifier>{229ea3b7-6975-4970-b5cb-a611bfc4e57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResultScene">
+      <UniqueIdentifier>{3d200f35-b87c-4ce6-8bb9-e542a926678d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\BoxCollider.cpp">
+      <Filter>01Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Collider.cpp">
+      <Filter>01Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SphereCollider.cpp">
+      <Filter>01Engine\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Direct3D.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Fbx.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FbxParts.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Sprite.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Camera.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameObject.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RootObject.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\CsvReader.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Image.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Model.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Main.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\SceneManager.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Texture.cpp">
+      <Filter>01Engine\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Transform.cpp">
+      <Filter>01Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio.cpp">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Text.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="Engine\Fade.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>01Engine\imagui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>01Engine\imagui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>01Engine\imagui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>01Engine\imagui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>01Engine\imagui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>01Engine\imagui</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ImGuiSet.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Time.cpp">
+      <Filter>01Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Stage.cpp" />
+    <ClCompile Include="Meteorite.cpp" />
+    <ClCompile Include="CreateMeteorite.cpp" />
+    <ClCompile Include="EarthScene\BillBoard.cpp">
+      <Filter>EarthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EarthScene\EarthScene.cpp">
+      <Filter>EarthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SunScene\CreateFirePillar.cpp">
+      <Filter>SunScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SunScene\FirePillar.cpp">
+      <Filter>SunScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SunScene\SunScene.cpp">
+      <Filter>SunScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MonthScene\CreateMoonStone.cpp">
+      <Filter>MonthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MonthScene\MonthScene.cpp">
+      <Filter>MonthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MonthScene\MoonStone.cpp">
+      <Filter>MonthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene\TitleScene.cpp">
+      <Filter>TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene\HomeScene.cpp">
+      <Filter>HomeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeScene\CustomizeScene.cpp">
+      <Filter>CustomizeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScene\SplashScene.cpp">
+      <Filter>SplashScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Charge.cpp" />
+    <ClCompile Include="CreateBill.cpp" />
+    <ClCompile Include="EarthScene\Bill.cpp">
+      <Filter>EarthScene</Filter>
+    </ClCompile>
+    <ClCompile Include="WormHole.cpp" />
+    <ClCompile Include="CreateHole.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Emitter.cpp" />
+    <ClCompile Include="CustomizeScene\AirframePlatform.cpp">
+      <Filter>CustomizeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CourseOrCustomizedScene\CourseOrCustomizedScene.cpp">
+      <Filter>CourseOrCustomizedScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseSelectScene\CourseSelectScene.cpp">
+      <Filter>CourseSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene\ResultScene.cpp">
+      <Filter>ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseOrCustomizedScene\CourseSelectButton.cpp">
+      <Filter>CourseOrCustomizedScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseOrCustomizedScene\CustomizeButton.cpp">
+      <Filter>CourseOrCustomizedScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseSelectScene\SunSelectButton.cpp">
+      <Filter>CourseSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseSelectScene\EarthSelectButton.cpp">
+      <Filter>CourseSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseSelectScene\MonthSelectButton.cpp">
+      <Filter>CourseSelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizeScene\BackButton.cpp">
+      <Filter>CustomizeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene\SoloButton.cpp">
+      <Filter>HomeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene\DuoButton.cpp">
+      <Filter>HomeScene</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeScene\TutorialButton.cpp">
+      <Filter>HomeScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\BoxCollider.h">
+      <Filter>01Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Collider.h">
+      <Filter>01Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SphereCollider.h">
+      <Filter>01Engine\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Direct3D.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Fbx.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FbxParts.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Camera.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameObject.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\RootObject.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\CsvReader.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Image.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Model.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Global.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SceneManager.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>01Engine\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Transform.h">
+      <Filter>01Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio.h">
+      <Filter>01Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Text.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="Engine\Fade.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>01Engine\imagui</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ImGuiSet.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time.h">
+      <Filter>01Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Stage.h" />
+    <ClInclude Include="Meteorite.h" />
+    <ClInclude Include="CreateMeteorite.h" />
+    <ClInclude Include="EarthScene\BillBoard.h">
+      <Filter>EarthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EarthScene\EarthScene.h">
+      <Filter>EarthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SunScene\CreateFirePillar.h">
+      <Filter>SunScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SunScene\FirePillar.h">
+      <Filter>SunScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SunScene\SunScene.h">
+      <Filter>SunScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MonthScene\CreateMoonStone.h">
+      <Filter>MonthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MonthScene\MonthScene.h">
+      <Filter>MonthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MonthScene\MoonStone.h">
+      <Filter>MonthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene\TitleScene.h">
+      <Filter>TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene\HomeScene.h">
+      <Filter>HomeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeScene\CustomizeScene.h">
+      <Filter>CustomizeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScene\SplashScene.h">
+      <Filter>SplashScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Charge.h" />
+    <ClInclude Include="CreateBill.h" />
+    <ClInclude Include="EarthScene\Bill.h">
+      <Filter>EarthScene</Filter>
+    </ClInclude>
+    <ClInclude Include="WormHole.h" />
+    <ClInclude Include="CreateHole.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Emitter.h" />
+    <ClInclude Include="CustomizeScene\AirframePlatform.h">
+      <Filter>CustomizeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CourseOrCustomizedScene\CourseOrCustomizedScene.h">
+      <Filter>CourseOrCustomizedScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseSelectScene\CourseSelectScene.h">
+      <Filter>CourseSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene\ResultScene.h">
+      <Filter>ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseOrCustomizedScene\CourseSelectButton.h">
+      <Filter>CourseOrCustomizedScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseOrCustomizedScene\CustomizeButton.h">
+      <Filter>CourseOrCustomizedScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseSelectScene\SunSelectButton.h">
+      <Filter>CourseSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseSelectScene\EarthSelectButton.h">
+      <Filter>CourseSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseSelectScene\MonthSelectButton.h">
+      <Filter>CourseSelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizeScene\BackButton.h">
+      <Filter>CustomizeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene\SoloButton.h">
+      <Filter>HomeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene\DuoButton.h">
+      <Filter>HomeScene</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeScene\TutorialButton.h">
+      <Filter>HomeScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\Shader\Simple2D.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shader\Simple3D.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shader\Debug3D.hlsl">
+      <Filter>02Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
